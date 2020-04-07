@@ -14,7 +14,7 @@ class App extends Component {
 
   }
   
-    //Compent is mounted perform this action
+    //Lifecycle Method: When Compent is mounted, perform this action
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
